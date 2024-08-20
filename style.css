@@ -29,6 +29,11 @@ body{
     background-color: rgba(146, 146, 146, 0.37);
     border-radius: 50px;
 }
+.motors h2{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
 .property{
     display: flex;
     align-items: center;
@@ -39,6 +44,11 @@ body{
     padding: 5px;
     background-color: rgba(146, 146, 146, 0.37);
     border-radius: 50px;
+}
+.property h2{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 .search-section{
     display: flex;
@@ -62,14 +72,14 @@ body{
     display: flex;
 }
 .search-bar input{
-    height: 48px;
+    height: 50px;
     width: 650px;
     padding-left: 20px;
     background-color: transparent;
     border: 1px solid rgb(207, 207, 207);
 }
 .search-bar button{
-    height: 52px;
+    height: 50px;
     width: 52px;
     background-color: black;
     border: none;
@@ -88,12 +98,24 @@ body{
     font-size: 20px;
 }
 .button a{
-    margin-left: 25px;
-    border: 5px solid #002f34;
     text-decoration: none;
     color: black;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
+    margin-left: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    background-color: transparent;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #23E5DB #3A77FF #FFCE32;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.header-main{
+    background-color: white;
+    position: sticky;
+    z-index: 2;
+    top: 0;
 }
 .section{
     margin-top: 40px;
@@ -172,4 +194,113 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.cars-heading{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cars{
+    margin-top: 10px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cars-heading p{
+    font-size: 20px;
+    color: blue;
+    font-weight: 700;
+}
+.cars .product-tittle p{
+    line-height: 12px;
+}
+.bikes-heading{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bikes-heading p{
+    font-size: 20px;
+    color: blue;
+    font-weight: 700;
+}
+.bikes{
+    margin-top: 10px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Product Page */
+
+.parent-div{
+    display: flex;
+}
+.child1{
+    width: 70%;
+    margin-bottom: 30px;
+}
+.child2{
+    width: 30%;
+}
+.product-about-2{
+    border-radius: 4px;
+    margin-top: 20px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+}
+.product-about-2 h2{
+    font-weight: 600;
+}
+.product-price h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#carouselExampleIndicators{
+    margin-top: 20px;
+}
+.user{
+    border-radius: 4px;
+    border: 1px solid rgb(207, 207, 207);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.user h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.user-about{
+    display: flex;
+    align-items: center;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    margin-top: 10px;
+}
+.user button{
+    margin-top: 10px;
+    width: 340px;
+    height: 50px;
+    border: 3px solid #002F34;
+    font-size: 15px;
+    font-weight: 600;
+}
+.call{
+    background-color: #002F34;
+    color: white;
+}
+.location-box{
+    border-radius: 4px;
+    border: 1px solid rgb(207, 207, 207);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
 }
